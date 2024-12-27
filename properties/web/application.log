@@ -1,0 +1,6 @@
+2024-12-12 17:16:40,962 - reqres.api.base.Base -INFO - Starting test: testGetUsers
+2024-12-12 17:16:42,673 - reqres.api.base.Base -INFO - ************************* REQRES API TEST STARTED ************************
+2024-12-12 17:16:42,673 - reqres.api.base.Base -INFO - Base URL has been set to: https://reqres.in/api
+2024-12-12 17:18:22,749 - reqres.api.base.Base -INFO - Starting test: testGetUsers
+2024-12-12 17:18:24,325 - reqres.api.base.Base -INFO - ************************* REQRES API TEST STARTED ************************
+2024-12-12 17:18:24,325 - reqres.api.base.Base -INFO - Base URL has been set to: https://reqres.in/api

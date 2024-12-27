@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Console appender to print logs to the console -->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+    </Appenders>
+
+    <Loggers>
+        <!-- Set root logger level to INFO (you can change to DEBUG or WARN as needed) -->
+        <Root level="INFO">
+            <AppenderRef ref="Console"/>
+        </Root>
+        
+        <!-- Optionally, you can define other specific loggers (e.g., for your classes) -->
+        <Logger name="api.test.UserTests" level="DEBUG" additivity="false">
+            <AppenderRef ref="Console"/>
+        </Logger>
+    </Loggers>
+</Configuration>

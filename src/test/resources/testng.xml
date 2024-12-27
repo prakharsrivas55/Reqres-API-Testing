@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="API Test Suite" parallel="tests" thread-count="2">
+    <!-- Listener to generate Extent reports -->
+    <listeners>
+        <listener class-name="api_utilities.ExtentReportManager"/>
+    </listeners>
+
+    <!-- Define the test and specify classes to run -->
+    <test name="User API Tests">
+        <classes>
+            <!-- Specify the classes you want to run -->
+            <class name="api_test.UserTests"/>
+            <!-- Add more classes as needed -->
+        </classes>
+    </test>
+</suite>
