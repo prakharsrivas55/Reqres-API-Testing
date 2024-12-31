@@ -7,7 +7,6 @@ public class Routes {
     //User module
 
     public static String get_url= base_url+ "/api/users";
-    
     public static String post_url= base_url + "/api/users";
     public static String put_url(int id){
         return  base_url+ "/api/users/"+ id;
